@@ -1,0 +1,21 @@
+2026-01-14 01:06:31,782 | INFO | === START RUN ===
+2026-01-14 01:06:31,784 | INFO | Repo root: /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein
+2026-01-14 01:06:31,785 | INFO | Data dir : /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/data
+2026-01-14 01:06:31,786 | INFO | Logs dir : /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/logs
+2026-01-14 01:06:31,787 | INFO | Log file : /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/logs/run_20260114_0106.log
+2026-01-14 01:06:31,788 | INFO | Python   : 3.12.3
+2026-01-14 01:06:31,789 | INFO | Reproducibility seeds set: PYTHONHASHSEED=0, random=0, numpy=0
+2026-01-14 01:06:31,836 | INFO | Input hash | menu_items.csv | sha256=7b988ca5f880bf2106793f88de522aab06b4cebbc9219c5aa79497e897c47561 | bytes=1085
+2026-01-14 01:06:31,839 | INFO | Input hash | order_details.csv | sha256=85086e838a21f7569b0cd803224f50440ab68c132e1df5df1a1058072abbcd83 | bytes=413634
+2026-01-14 01:06:31,930 | INFO | Wrote hashes to: /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/data_hashes.json
+2026-01-14 01:06:31,932 | INFO | Loading menu file  : menu_items.csv
+2026-01-14 01:06:31,933 | INFO | Loading orders file: order_details.csv
+2026-01-14 01:06:31,943 | INFO | Loaded menu_items    shape=(32, 4)
+2026-01-14 01:06:31,944 | INFO | Loaded order_details shape=(12234, 5)
+2026-01-14 01:06:31,945 | INFO | menu_items columns    = ['menu_item_id', 'item_name', 'category', 'price']
+2026-01-14 01:06:31,946 | INFO | order_details columns = ['order_details_id', 'order_id', 'order_date', 'order_time', 'item_id']
+2026-01-14 01:06:31,984 | INFO | Parsed datetime from order_date+order_time -> _order_dt (non-null: 0, null: 12234)
+2026-01-14 01:06:31,991 | INFO | Tidy table shape=(12234, 9)
+2026-01-14 01:06:31,996 | INFO | Top5 items rows         : 5
+2026-01-14 01:06:31,997 | INFO | Revenue by category rows : 4
+2026-01-14 01:06:31,999 | INFO | Busiest hour rows        : 0

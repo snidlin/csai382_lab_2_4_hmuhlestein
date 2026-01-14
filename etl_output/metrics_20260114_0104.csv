@@ -1,0 +1,11 @@
+metric,key,value
+top_item_quantity,Hamburger,622.0
+top_item_quantity,Edamame,620.0
+top_item_quantity,Korean Beef Bowl,588.0
+top_item_quantity,Cheeseburger,583.0
+top_item_quantity,French Fries,571.0
+revenue_by_category,Italian,49462.7
+revenue_by_category,Asian,46720.65
+revenue_by_category,Mexican,34796.799999999996
+revenue_by_category,American,28237.75
+busiest_hour,0,12234.0

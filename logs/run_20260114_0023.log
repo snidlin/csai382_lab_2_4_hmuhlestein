@@ -1,0 +1,6 @@
+2026-01-14 00:23:40,383 | INFO | === START RUN ===
+2026-01-14 00:23:40,386 | INFO | Repo root: /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein
+2026-01-14 00:23:40,403 | INFO | Data dir : /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/data
+2026-01-14 00:23:40,407 | INFO | Logs dir : /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/logs
+2026-01-14 00:23:40,409 | INFO | Log file : /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/logs/run_20260114_0023.log
+2026-01-14 00:23:40,413 | INFO | Python   : 3.12.3

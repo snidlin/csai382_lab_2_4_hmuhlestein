@@ -1,0 +1,25 @@
+2026-01-14 01:09:33,887 | INFO | === START RUN ===
+2026-01-14 01:09:33,888 | INFO | Repo root: /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein
+2026-01-14 01:09:33,889 | INFO | Data dir : /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/data
+2026-01-14 01:09:33,890 | INFO | Logs dir : /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/logs
+2026-01-14 01:09:33,891 | INFO | Log file : /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/logs/run_20260114_0109.log
+2026-01-14 01:09:33,892 | INFO | Python   : 3.12.3
+2026-01-14 01:09:33,892 | INFO | Reproducibility seeds set: PYTHONHASHSEED=0, random=0, numpy=0
+2026-01-14 01:09:33,930 | INFO | Input hash | menu_items.csv | sha256=7b988ca5f880bf2106793f88de522aab06b4cebbc9219c5aa79497e897c47561 | bytes=1085
+2026-01-14 01:09:33,934 | INFO | Input hash | order_details.csv | sha256=85086e838a21f7569b0cd803224f50440ab68c132e1df5df1a1058072abbcd83 | bytes=413634
+2026-01-14 01:09:33,998 | INFO | Wrote hashes to: /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/data_hashes.json
+2026-01-14 01:09:33,999 | INFO | Loading menu file  : menu_items.csv
+2026-01-14 01:09:34,000 | INFO | Loading orders file: order_details.csv
+2026-01-14 01:09:34,016 | INFO | Loaded menu_items    shape=(32, 4)
+2026-01-14 01:09:34,017 | INFO | Loaded order_details shape=(12234, 5)
+2026-01-14 01:09:34,018 | INFO | menu_items columns    = ['menu_item_id', 'item_name', 'category', 'price']
+2026-01-14 01:09:34,019 | INFO | order_details columns = ['order_details_id', 'order_id', 'order_date', 'order_time', 'item_id']
+2026-01-14 01:09:34,071 | INFO | Parsed datetime from order_date+order_time -> _order_dt (non-null: 0, null: 12234)
+2026-01-14 01:09:34,077 | INFO | Tidy table shape=(12234, 9)
+2026-01-14 01:09:34,083 | INFO | Top5 items rows         : 5
+2026-01-14 01:09:34,084 | INFO | Revenue by category rows : 4
+2026-01-14 01:09:34,085 | INFO | Busiest hour rows        : 0
+2026-01-14 01:09:34,087 | INFO | busiest_hour is empty (no valid _order_dt values parsed).
+2026-01-14 01:09:34,139 | INFO | Saved metrics CSV to: /Workspace/Users/hmm733@ensign.edu/csai382_lab_2_4_hmuhlestein/etl_output/metrics_20260114_0109.csv
+2026-01-14 01:09:34,144 | INFO | All asserts passed.
+2026-01-14 01:09:34,145 | INFO | === END RUN ===

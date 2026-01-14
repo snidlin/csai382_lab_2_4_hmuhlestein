@@ -1,0 +1,10 @@
+{
+  "menu_items.csv": {
+    "sha256": "7b988ca5f880bf2106793f88de522aab06b4cebbc9219c5aa79497e897c47561",
+    "bytes": 1085
+  },
+  "order_details.csv": {
+    "sha256": "85086e838a21f7569b0cd803224f50440ab68c132e1df5df1a1058072abbcd83",
+    "bytes": 413634
+  }
+}
